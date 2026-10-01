@@ -4,10 +4,15 @@ A record of Codex conversations, actions, measured results, and limitations.
 
 Each conversation has a dated Markdown log and supporting evidence where available. Credentials, SSH keys, model weights, and caches must never be committed.
 
+## Explanations
+
+- [Network layout, internet routes, and speed differences between login and compute nodes](docs/network-layout.md)
+
 ## Conversations
 
 - [2026-10-01: Downloading Qwen3.8-27B and checking network speed](conversations/2026-10-01-qwen-download-and-network.md)
 - [2026-10-01: Fresh login-node download and comparison with the compute node](conversations/2026-10-01-qwen-login-node-comparison.md)
+- [2026-10-01: Network layout explanation and compute-node download advice](conversations/2026-10-01-network-layout-explanation.md)
 
 ## Adding a conversation
 

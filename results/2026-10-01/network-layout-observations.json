@@ -1,0 +1,73 @@
+{
+  "date": "2026-10-01",
+  "scope": "Two observed hosts; not a cluster-wide inventory",
+  "compute_node": {
+    "hostname": "b40x4-07",
+    "provenance": "Earlier tool output in this conversation; not freshly remeasured for the explanation",
+    "default_route": "default via 10.10.0.211 dev eth0 proto static metric 100",
+    "connected_routes": [
+      "10.10.0.0/23 dev eth0 proto kernel scope link src 10.10.0.197 metric 100",
+      "10.10.4.0/23 dev ib0 proto kernel scope link src 10.10.4.197 metric 150"
+    ],
+    "huggingface_route_example": "3.167.112.45 via 10.10.0.211 dev eth0 src 10.10.0.197",
+    "interfaces": {
+      "eth0": {
+        "speed_Mbps": 1000,
+        "duplex": "full",
+        "driver": "tg3",
+        "highest_supported_speed_Mbps": 1000
+      },
+      "ib0": {
+        "reported_speed_Mbps": 200000,
+        "mtu": 2044
+      }
+    }
+  },
+  "login_node": {
+    "hostname": "login1",
+    "provenance": "Reconfirmed with ip route, ip route get, ethtool -i, and sysfs for this explanation; supported modes from earlier ethtool output",
+    "default_route": "default via 130.245.181.1 dev eth5 proto static metric 100",
+    "connected_routes": [
+      "10.10.0.0/23 dev eth2 proto kernel scope link src 10.10.0.210 metric 101",
+      "10.10.4.0/23 dev ib0 proto kernel scope link src 10.10.4.210 metric 150",
+      "130.245.181.0/24 dev eth5 proto kernel scope link src 130.245.181.10 metric 100"
+    ],
+    "huggingface_route_example": "3.167.112.45 via 130.245.181.1 dev eth5 src 130.245.181.10",
+    "interfaces": {
+      "eth2": {
+        "speed_Mbps": 1000,
+        "duplex": "full",
+        "driver": "bnxt_en",
+        "mtu": 1500
+      },
+      "eth5": {
+        "speed_Mbps": 10000,
+        "duplex": "full",
+        "driver": "bnxt_en",
+        "mtu": 1500,
+        "supported_speeds_Mbps": [
+          1000,
+          10000,
+          25000
+        ]
+      },
+      "ib0": {
+        "reported_speed_Mbps": 200000,
+        "duplex": "full",
+        "driver": "mlx5_core",
+        "mtu": 2044
+      }
+    }
+  },
+  "shared_storage": {
+    "mount_path": "/lustre/nvwulf/scratch",
+    "observed_mount_source": "10.10.4.233@o2ib:10.10.4.234@o2ib:/cls04010"
+  },
+  "unknowns": [
+    "Identity of compute gateway 10.10.0.211",
+    "Physical switches and their uplinks",
+    "Upstream routes and bottlenecks",
+    "Firewall and address-translation configuration",
+    "Administrative rationale for interface choices"
+  ]
+}
