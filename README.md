@@ -7,6 +7,7 @@ Each conversation has a dated Markdown log and supporting evidence where availab
 ## Conversations
 
 - [2026-10-01: Downloading Qwen3.8-27B and checking network speed](conversations/2026-10-01-qwen-download-and-network.md)
+- [2026-10-01: Fresh login-node download and comparison with the compute node](conversations/2026-10-01-qwen-login-node-comparison.md)
 
 ## Adding a conversation
 

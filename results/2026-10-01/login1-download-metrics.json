@@ -1,0 +1,83 @@
+{
+  "repo_id": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "hostname": "login1",
+  "directory": "/lustre/nvwulf/scratch/decarlson/Qwen3.8-27B-login1-retry",
+  "cache_directory": "/lustre/nvwulf/scratch/decarlson/.cache/huggingface-login1-20261001T103948Z",
+  "fresh_destination": true,
+  "fresh_cache": true,
+  "files": 32,
+  "total_bytes": 55586114863,
+  "previously_complete_bytes": 0,
+  "started_at_utc": "2026-10-01T10:39:49.513683+00:00",
+  "finished_at_utc": "2026-10-01T10:40:56.650386+00:00",
+  "elapsed_seconds": 67.13667775690556,
+  "average_MB_per_second": 827.9545059448897,
+  "average_MiB_per_second": 789.5989474724671,
+  "max_workers": 2,
+  "speed_basis": "new file bytes divided by snapshot_download wall-clock time",
+  "verified_file_sizes": true,
+  "huggingface_hub_version": "1.31.0",
+  "hf_xet_version": "1.6.0",
+  "network_routes": "default via 130.245.181.1 dev eth5 proto static metric 100 \n10.10.0.0/23 dev eth2 proto kernel scope link src 10.10.0.210 metric 101 \n10.10.4.0/23 dev ib0 proto kernel scope link src 10.10.4.210 metric 150 \n130.245.181.0/24 dev eth5 proto kernel scope link src 130.245.181.10 metric 100 \n",
+  "interface_byte_deltas": {
+    "eth3": {
+      "rx": 0,
+      "tx": 0
+    },
+    "eth1": {
+      "rx": 0,
+      "tx": 0
+    },
+    "ib0": {
+      "rx": 0,
+      "tx": 0
+    },
+    "eth4": {
+      "rx": 0,
+      "tx": 0
+    },
+    "eth2": {
+      "rx": 17830185,
+      "tx": 3196890
+    },
+    "lo": {
+      "rx": 205229,
+      "tx": 205229
+    },
+    "eth0": {
+      "rx": 0,
+      "tx": 0
+    },
+    "eth5": {
+      "rx": 50997171360,
+      "tx": 143719139
+    }
+  },
+  "interface_counter_caveat": "Host-wide traffic, including unrelated activity; counter snapshots may lag. Not an isolated per-process wire measurement.",
+  "compute_node_hostname": "b40x4-07",
+  "compute_node_average_MB_per_second": 136.01880656217133,
+  "compute_node_elapsed_seconds": 408.66492118200404,
+  "speedup_vs_compute": 6.08705903890172,
+  "elapsed_reduction_percent": 83.57170525849821,
+  "xet_concurrent_range_gets": 4,
+  "internet_interface": "eth5",
+  "internet_interface_link_Mbps": 10000,
+  "initial_attempt": {
+    "directory": "/lustre/nvwulf/scratch/decarlson/Qwen3.8-27B-login1",
+    "max_workers": 8,
+    "exit_code": 137,
+    "last_progress_elapsed_seconds": 20.0,
+    "last_progress_allocated_GB": 16.0,
+    "completed": false,
+    "excluded_from_successful_run_timing": true,
+    "retry_used_new_destination_and_cache": true,
+    "memory_diagnostics": {
+      "user_memory_max_bytes": 5368709120,
+      "user_memory_peak_bytes": 5437947904,
+      "user_oom_kill_counter": 1,
+      "session_oom_kill_counter": 1
+    },
+    "interpretation": "Exit 137 plus cgroup out-of-memory kill counters indicate memory-limit termination; counters are cumulative."
+  }
+}
