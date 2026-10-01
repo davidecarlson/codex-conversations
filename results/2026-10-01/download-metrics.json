@@ -1,0 +1,13 @@
+{
+  "repo_id": "Qwen/Qwen3.8-27B",
+  "revision": "1d4bf0f2ff6012fd82039f2fa52739d0dd7c60c0",
+  "directory": "/lustre/nvwulf/scratch/decarlson/Qwen3.8-27B",
+  "files": 32,
+  "total_bytes": 55586114863,
+  "previously_complete_bytes": 0,
+  "elapsed_seconds": 408.66492118200404,
+  "average_MB_per_second": 136.01880656217133,
+  "average_MiB_per_second": 129.7176423665727,
+  "speed_basis": "new file bytes divided by snapshot_download wall-clock time",
+  "verified_file_sizes": true
+}

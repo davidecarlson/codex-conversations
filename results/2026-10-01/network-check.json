@@ -1,0 +1,16 @@
+{
+  "test": "Uncompressed HTTP range download discarded from memory; existing model unchanged",
+  "bytes_read": 1073741824,
+  "elapsed_seconds": 9.782584075001068,
+  "average_MB_per_second": 109.76055158512735,
+  "payload_seconds": 9.283919392008102,
+  "payload_MB_per_second": 115.65609078039947,
+  "interface_rx_bytes": {
+    "eth0": 1013688221,
+    "ib0": 0
+  },
+  "interface_average_Mbps": {
+    "eth0": 828.973787071604,
+    "ib0": 0.0
+  }
+}
